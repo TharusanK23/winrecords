@@ -27,7 +27,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #0a183d;
+	color: #111111;
 	font-weight: 600;
 	line-height: 1;
 }
@@ -137,7 +137,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #FF1212;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -149,7 +149,7 @@ Commom elements
 }
 
 .site-btn.sb-c2 {
-	background: #383b70;
+	background: #353535;
 }
 
 /* Preloder */
@@ -223,13 +223,13 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	background: #0D0D0D;
+	/*#08192d*/
 }
 
 .site-logo {
 	display: inline-block;
-	padding: 0;
-	padding: 44px 15px;
+	padding: 25px 15px;
 }
 
 .header-right {
@@ -254,7 +254,7 @@ Header section
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	color: #FF1212;
 	margin-right: 0;
 }
 
@@ -283,7 +283,7 @@ Header section
 }
 
 .main-menu li a:hover {
-	color: #fc0254;
+	color: #FF1212;
 }
 
 .main-menu li:first-child a {
@@ -326,7 +326,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #fc0254;
+	color: #FF1212;
 }
 
 .slicknav_menu {
@@ -350,7 +350,7 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: #111111;
 }
 
 .hs-item h2 {
@@ -364,7 +364,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #FF1212;
 }
 
 .hs-item p {
@@ -452,7 +452,7 @@ Hero section
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-	background: #fc0254;
+	background: #FF1212;
 }
 
 /* ----------------
@@ -469,7 +469,7 @@ How section
  -------------------*/
 
 .how-section {
-	background-color: #0a183d;
+	background-color: #111111;
 }
 
 .how-item .hi-icon {
@@ -477,7 +477,7 @@ How section
 	width: 57px;
 	height: 57px;
 	border-radius: 50%;
-	background: #fc0254;
+	background: #FF1212;
 	margin-bottom: 25px;
 }
 
@@ -519,7 +519,7 @@ Subscription section
  -----------------------*/
 
 .subscription-section {
-	background: #0a183d;
+	background: #111111;
 }
 
 .sub-text {
@@ -534,7 +534,7 @@ Subscription section
 }
 
 .sub-text h3 {
-	color: #fc0254;
+	color: #FF1212;
 	margin-bottom: 30px;
 	font-weight: 500;
 }
@@ -548,7 +548,7 @@ Subscription section
 
 .sub-list {
 	list-style: none;
-	background: #1c294a;
+	background: #353535;
 	padding: 70px 15px 50px 155px;
 	border-radius: 42px;
 }
@@ -596,7 +596,7 @@ Responsive
  -------------------*/
 
 .footer-section {
-	background: #0a183d;
+	background: #111111;
 	padding: 100px 0 85px;
 }
 
@@ -672,7 +672,7 @@ Playlist page
 }
 
 .playlist-filter li.mixitup-control-active {
-	border-bottom: 2px solid #fc0254;
+	border-bottom: 2px solid #FF1212;
 }
 
 .playlist-item {
@@ -714,7 +714,7 @@ Playlist page
 	border-radius: 80px;
 	color: #fff;
 	font-size: 15px;
-	background: #fc0254;
+	background: #FF1212;
 }
 
 /* ----------------
@@ -732,7 +732,7 @@ Blog page
 .blog-item .blog-date {
 	font-size: 12px;
 	font-weight: 600;
-	color: #fc0254;
+	color: #FF1212;
 	margin-bottom: 24px;
 }
 
@@ -803,7 +803,7 @@ Contact page
 
 .contact-warp ul li {
 	font-size: 14px;
-	color: #0a183d;
+	color: #111111;
 	font-size: 14px;
 	margin-bottom: 15px;
 	font-weight: 500;
@@ -861,7 +861,7 @@ Category page
 }
 
 .category-links a.active {
-	border-bottom: 2px solid #fc0254;
+	border-bottom: 2px solid #FF1212;
 }
 
 .category-item {
@@ -906,7 +906,7 @@ Category page
 	height: 71px;
 	right: 29px;
 	bottom: 21px;
-	color: #fc0254;
+	color: #FF1212;
 	font-size: 16px;
 	text-align: center;
 	border-radius: 50%;
@@ -1000,7 +1000,7 @@ Category page
 }
 
 .jp-play {
-	background: #fc0254;
+	background: #FF1212;
 }
 
 .jp-play:after {
@@ -1067,7 +1067,7 @@ Category page
 .jp-current-time {
 	position: absolute;
 	font-size: 14px;
-	color: #0a183d;
+	color: #111111;
 	right: -40px;
 	top: 100%;
 	padding-top: 15px;
@@ -1137,7 +1137,7 @@ Artest Page
 	top: calc(50% - 35px);
 	border: none;
 	border-radius: 50%;
-	color: #fc0254;
+	color: #FF1212;
 	background: #fff;
 }
 
@@ -1178,7 +1178,7 @@ Artest Page
 	right: 0;
 	bottom: 0;
 	font-size: 14px;
-	color: #0a183d;
+	color: #111111;
 	font-weight: 500;
 	background: #fff;
 	padding-right: 2px;
@@ -1222,7 +1222,7 @@ Artest Page
 	float: left;
 	margin-right: 6px;
 	font-weight: 600;
-	color: #0a183d;
+	color: #111111;
 }
 
 .song-details-box ul span {
@@ -1473,7 +1473,7 @@ Responsive
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		color: #fc0254;
+		color: #FF1212;
 		background: transparent;
 	}
 	.slicknav_btn {
@@ -1609,7 +1609,7 @@ Responsive
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		color: #fc0254;
+		color: #FF1212;
 		background: transparent;
 	}
 	.slicknav_btn {
