@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>SolMusic | HTML Template</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="SolMusic HTML Template">
+    <meta name="keywords" content="music, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="img/logo/logo_win_icon.png" rel="shortcut icon"/>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    &lt;!&ndash; Stylesheets &ndash;&gt;-->
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+<!--    <link rel="stylesheet" href="css/font-awesome.min.css"/>-->
+<!--    <link rel="stylesheet" href="css/owl.carousel.min.css"/>-->
+<!--    <link rel="stylesheet" href="css/slicknav.min.css"/>-->
+
+<!--    &lt;!&ndash; Main Stylesheets &ndash;&gt;-->
+<!--    <link rel="stylesheet" href="css/style.css"/>-->
+    <link rel="stylesheet" href="css/login.css"/>
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form action="#">
+            <h1>Create Account</h1>
+            <div class="social-container">
+                <a href="#" class="social"><img class="facebook" src="./img/logo/facebook.svg" alt=""></a>
+                <a href="#" class="social"><img class="google" src="./img/logo/google.svg" alt=""></a>
+                <a href="#" class="social"><img class="instagram" src="./img/logo/instagram.svg" alt=""></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button><a class="link" href="#"> Sign Up</a></button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="#">
+            <h1>Sign in</h1>
+            <div class="social-container">
+                <a href="#" class="social"><img class="facebook" src="./img/logo/facebook.svg" alt=""></a>
+                <a href="#" class="social"><img class="google" src="./img/logo/google.svg" alt=""></a>
+                <a href="#" class="social"><img class="instagram" src="./img/logo/instagram.svg" alt=""></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot your password?</a>
+            <button><a class="link" href="./index.html">Sign In</a></button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>
+        Created with <i class="fa fa-heart"></i> by
+        <a target="_blank" href="./index.html">WINRECORDS</a>
+        - Dosen't like to create an account with us please click
+        <a target="_blank" href="./index.html">here</a>.
+    </p>
+</footer>
+
+<script>
+    const signUpButton = document.getElementById('signUp');
+    const signInButton = document.getElementById('signIn');
+    const container = document.getElementById('container');
+
+    signUpButton.addEventListener('click', () => {
+        container.classList.add("right-panel-active");
+    });
+
+    signInButton.addEventListener('click', () => {
+        container.classList.remove("right-panel-active");
+    });
+</script>
+
+
+<!--====== Javascripts & Jquery ======-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Audio Player and Initialization -->
+<script src="js/jquery.jplayer.min.js"></script>
+<script src="js/jplayerInit.js"></script>
+
+</body>
+</html>
